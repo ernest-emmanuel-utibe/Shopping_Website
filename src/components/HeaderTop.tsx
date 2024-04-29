@@ -1,5 +1,5 @@
-import React from 'react'
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
+import React from 'react';
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 const HeaderTop = () => {
   return (
@@ -48,7 +48,7 @@ const HeaderTop = () => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeaderTop
+export default HeaderTop;
