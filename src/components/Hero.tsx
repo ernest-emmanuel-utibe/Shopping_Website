@@ -18,14 +18,14 @@ const Hero = () => {
     const slideData = [
         {
             id: 0,
-            img: "/banner-1.jpeg",
+            img: "/banner-11.jpg",
             title: "Trending Item",
-            mainTitle: "WOMEN'S LATEST FASHION SALE",
+            mainTitle: "MEN'S LATEST FASHION SALE",
             price: "$20"
         },
         {
             id: 1,
-            img: "/banner-2.jpg",
+            img: "/banner-22.jpg",
             title: "Trending Item",
             mainTitle: "WOMEN'S LATEST FASHION SALE",
             price: "$20"
@@ -33,7 +33,7 @@ const Hero = () => {
 
         {
             id: 1,
-            img: "/banner-3.jpg",
+            img: "/banner-33.jpg",
             title: "Trending Accessories",
             mainTitle: "MODERN SUNGLASSES",
             price: "$15"
@@ -41,7 +41,7 @@ const Hero = () => {
 
         {
             id: 3,
-            img: "/banner-4.jpg",
+            img: "/banner-44.jpg",
             title: "Sale Offer",
             mainTitle: "NEW FASHION SUMMER SALE",
             price: "$30"
@@ -52,7 +52,7 @@ const Hero = () => {
 
   return (
     <div>
-        <div className="container pt-6 lg:pt-0">
+        <div className="container pt-2 lg:pt-0">
             <Slider {...settings}>
                 {slideData.map((item) => ( 
                     <Slide
